@@ -1,43 +1,37 @@
 <template>
- <md-card>
-    <md-card-header>
-      <div class="md-title">Your CO2 footprint</div>
-    </md-card-header>
+  <div>
+   <md-card>
+      <md-card-header>
+        <div class="md-title">Your CO2 footprint</div>
+      </md-card-header>
 
-    <md-card-content>
-       <div id="chart">
-      <apexchart type=pie width=380 :options="chartOptions" :series="series" />
-    </div>
-    </md-card-content>
-  </md-card>
+      <md-card-content>
+        <div id="chart">
+           <BalkendiagrammStartseite />
+        </div>
+      </md-card-content>
+    </md-card>
+
+    <md-card>
+      <md-card-header>
+        <div class="md-title">Your CO2 footprint</div>
+      </md-card-header>
+
+      <md-card-content>
+        <Barometer />
+      </md-card-content>
+    </md-card>
+  </div>
 </template>
 
 <script>
-import VueApexCharts from 'vue-apexcharts';
+import BalkendiagrammStartseite from '../assets/images/Balkendiagramm_Startseite.svg';
+import Barometer from '../assets/images/Barometer.svg';
 
 export default {
   components: {
-    apexchart: VueApexCharts,
-  },
-  data() {
-    return {
-      series: [77, 23],
-      chartOptions: {
-        labels: ['Geschafft', 'Ziel'],
-        responsive: [{
-          breakpoint: 480,
-          options: {
-            chart: {
-              width: '60%',
-            },
-            legend: {
-              position: 'bottom',
-            },
-          },
-        }],
-        colors: ['#4454AD', '#E40520'],
-      },
-    };
+    BalkendiagrammStartseite,
+    Barometer,
   },
 };
 </script>;

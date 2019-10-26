@@ -11,7 +11,7 @@
 
     <div class="phone-viewport">
       <md-bottom-bar md-sync-route>
-        <md-bottom-bar-item to="/" exact md-icon="equalizer"></md-bottom-bar-item>
+        <md-bottom-bar-item to="/dashboard" exact md-icon="equalizer"></md-bottom-bar-item>
         <md-bottom-bar-item to="/dataanalysis" md-icon="list_alt"></md-bottom-bar-item>
         <md-bottom-bar-item to="/achievements" md-icon="grade">
         </md-bottom-bar-item>
