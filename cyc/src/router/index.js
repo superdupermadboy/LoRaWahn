@@ -1,14 +1,19 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Dashboard from '../views/Dashboard.vue';
+import Start from '../views/Start.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
+    name: 'Start',
+    component: Start,
+  },
+  {
+    path: '/dashboard',
     name: 'Dashboard',
-    component: Dashboard,
+    component: () => import(/* webpackChunkName: "Dashboard" */ '../views/Dashboard.vue'),
   },
   {
     path: '/comparisons',
