@@ -1,15 +1,17 @@
 <template>
   <md-card >
     <md-card-content>
-      <div class="achievement_block">
-        <md-icon>{{ iconName }}</md-icon>
-        <div class="chart">
-          <div class="left" v-bind:class="percent"></div>
-          <div class="right" v-bind:class="rightPercent"></div>
-          <div class="indicator" v-bind:class="percent  "></div>
+      <div>
+        <div class="achievement_block">
+          <md-icon>{{ iconName }}</md-icon>
+          <div class="chart">
+            <div class="left" v-bind:class="percent"></div>
+            <div class="right" v-bind:class="rightPercent"></div>
+            <div class="indicator" v-bind:class="percent  "></div>
+          </div>
         </div>
-        <div>
-          Sie hab
+        <div class="text">
+          {{ text }}
         </div>
       </div>
     </md-card-content>
@@ -18,7 +20,7 @@
 
 <script>
 export default {
-  props: ['iconName', 'percent', 'rightPercent'],
+  props: ['iconName', 'percent', 'rightPercent', 'text'],
 };
 </script>
 
@@ -38,10 +40,10 @@ export default {
     }
 
     .left {
-      background-color: red;
+      background-color: #E40520;
     }
     .right {
-      background-color: blue;
+      background-color: #4454AD;
     }
 
     .indicator {
@@ -54,6 +56,11 @@ export default {
       border-top: 10px solid black;
     }
   }
+}
+
+.text {
+  margin-left: 34px;
+  margin-top: 5px;
 }
 
 .w10 {

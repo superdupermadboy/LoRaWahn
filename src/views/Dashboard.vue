@@ -2,23 +2,21 @@
   <div>
    <md-card>
       <md-card-header>
-        <div class="md-title">Your CO2 footprint</div>
+        <div class="md-title">Deine Nachhaltigkeit</div>
       </md-card-header>
 
       <md-card-content>
-        <div id="chart">
-           <BalkendiagrammStartseite />
-        </div>
+          <Barometer />
       </md-card-content>
     </md-card>
 
     <md-card>
       <md-card-header>
-        <div class="md-title">Your CO2 footprint</div>
+        <div class="md-title">Du im vergleich</div>
       </md-card-header>
 
       <md-card-content>
-        <Barometer />
+        <BalkendiagrammStartseite />
       </md-card-content>
     </md-card>
   </div>
