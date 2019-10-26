@@ -40,10 +40,10 @@ export default {
     }
 
     .left {
-      background-color: #E40520;
+      background-color: #4454AD;
     }
     .right {
-      background-color: #4454AD;
+      background-color: #E40520;
     }
 
     .indicator {
