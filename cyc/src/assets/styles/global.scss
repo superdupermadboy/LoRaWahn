@@ -4,19 +4,23 @@ body {
 }
 
 .phone-viewport {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    overflow: hidden;
-    background: rgba(#000, .06);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  background: rgba(#000, .06);
+
+  .md-bottom-bar.md-type-fixed .md-bottom-bar-item {
+    min-width: 70px
+  }
 }
 
 .md-card {
-    .md-card-header {
-      text-align: center;
-    }
-
-    .apexcharts-canvas {
-      margin: auto;
-    }
+  .md-card-header {
+    text-align: center;
   }
+
+  .apexcharts-canvas {
+    margin: auto;
+  }
+}
