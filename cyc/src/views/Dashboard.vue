@@ -21,9 +21,9 @@ export default {
   },
   data() {
     return {
-      series: [44, 55, 13, 43, 22],
+      series: [77, 23],
       chartOptions: {
-        labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
+        labels: ['Geschafft', 'Ziel'],
         responsive: [{
           breakpoint: 480,
           options: {
@@ -35,6 +35,7 @@ export default {
             },
           },
         }],
+        colors: ['#4454AD', '#E40520'],
       },
     };
   },

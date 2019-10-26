@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 
     <div class="header">
       <h3 align="center">{{ $route.name }}</h3>
@@ -29,7 +30,14 @@ export default {
 
 <style lang="scss">
 @import './assets/styles/global.scss';
+@import "~vue-material/dist/theme/engine"; // Import the theme engine
 
+@include md-register-theme("default", (
+  primary: #4454AD, // The primary color of your application
+  accent: #E40520 // The accent or secondary color
+));
+
+@import "~vue-material/dist/theme/all"; // Apply the theme
 .bottomBar .md-icon {
   font-size:32px!important;
 }
