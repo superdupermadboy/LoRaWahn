@@ -1,4 +1,4 @@
-# cyc
+# test
 
 ## Project setup
 ```
