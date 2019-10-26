@@ -9,6 +9,7 @@ body {
   bottom: 0;
   overflow: hidden;
   background: rgba(#000, .06);
+  z-index: 1;
 
   .md-bottom-bar.md-type-fixed .md-bottom-bar-item {
     min-width: 70px
@@ -16,6 +17,8 @@ body {
 }
 
 .md-card {
+  margin-bottom: 10px;
+
   .md-card-header {
     text-align: center;
   }

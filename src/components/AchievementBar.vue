@@ -1,5 +1,5 @@
 <template>
-  <md-card class="card">
+  <md-card >
     <md-card-content>
       <div class="achievement_block">
         <md-icon>{{ iconName }}</md-icon>
@@ -23,10 +23,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.card {
-  margin-bottom: 10px;
-}
-
 .achievement_block {
   height: 50px;
   display: flex;
