@@ -7,12 +7,12 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
-    name: 'dashboard',
+    name: 'Dashboard',
     component: Dashboard,
   },
   {
     path: '/comparisons',
-    name: 'comparisons',
+    name: 'Comparisons',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
@@ -20,12 +20,12 @@ const routes = [
   },
   {
     path: '/achievements',
-    name: 'achievements',
+    name: 'Achievements',
     component: () => import(/* webpackChunkName: "achievements" */ '../views/Achievements.vue'),
   },
   {
     path: '/tips',
-    name: 'tips',
+    name: 'Tips',
     component: () => import(/* webpackChunkName: "tips" */ '../views/Tips.vue'),
   },
 ];
