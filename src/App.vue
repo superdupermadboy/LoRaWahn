@@ -11,9 +11,9 @@
 
     <div class="phone-viewport">
       <md-bottom-bar md-sync-route>
-        <md-bottom-bar-item to="/" exact md-label="Home" md-icon="home"></md-bottom-bar-item>
-        <md-bottom-bar-item to="/comparisons" md-label="Posts" md-icon="eco"></md-bottom-bar-item>
-        <md-bottom-bar-item to="/achievements" md-label="Achievements" md-icon="favorite">
+        <md-bottom-bar-item to="/" exact md-icon="equalizer"></md-bottom-bar-item>
+        <md-bottom-bar-item to="/dataanalysis" md-icon="list_alt"></md-bottom-bar-item>
+        <md-bottom-bar-item to="/achievements" md-icon="grade">
         </md-bottom-bar-item>
         <md-bottom-bar-item to="/tips" md-icon="eco"></md-bottom-bar-item>
         <md-bottom-bar-item md-icon="more_horiz"></md-bottom-bar-item>
@@ -38,7 +38,4 @@ export default {
 ));
 
 @import "~vue-material/dist/theme/all"; // Apply the theme
-.bottomBar .md-icon {
-  font-size:32px!important;
-}
 </style>
