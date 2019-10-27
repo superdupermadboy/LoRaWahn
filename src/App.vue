@@ -7,7 +7,7 @@
       <h3 align="center">{{ $route.name }}</h3>
     </div>
 
-    <router-view/>
+    <router-view class="content"/>
 
     <div class="phone-viewport">
       <md-bottom-bar md-sync-route>
@@ -38,4 +38,8 @@ export default {
 ));
 
 @import "~vue-material/dist/theme/all"; // Apply the theme
+
+.content {
+  margin-bottom: 55px;
+}
 </style>
