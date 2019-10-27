@@ -7,7 +7,7 @@
       <h3 align="center">{{ $route.name }}</h3>
     </div>
 
-    <router-view/>
+    <router-view class="content"/>
 
     <div class="phone-viewport">
       <md-bottom-bar md-sync-route>
@@ -16,7 +16,7 @@
         <md-bottom-bar-item to="/achievements" md-icon="grade">
         </md-bottom-bar-item>
         <md-bottom-bar-item to="/tips" md-icon="eco"></md-bottom-bar-item>
-        <md-bottom-bar-item md-icon="more_horiz"></md-bottom-bar-item>
+        <md-bottom-bar-item to="more" md-icon="more_horiz"></md-bottom-bar-item>
       </md-bottom-bar>
     </div>
   </div>
@@ -38,4 +38,8 @@ export default {
 ));
 
 @import "~vue-material/dist/theme/all"; // Apply the theme
+
+.content {
+  margin-bottom: 55px;
+}
 </style>
