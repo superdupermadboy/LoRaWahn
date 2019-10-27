@@ -33,6 +33,11 @@ const routes = [
     name: 'Tipps',
     component: () => import(/* webpackChunkName: "tips" */ '../views/Tips.vue'),
   },
+  {
+    path: '/more',
+    name: 'Mehr',
+    component: () => import(/* webpackChunkName: "tips" */ '../views/More.vue'),
+  },
 ];
 
 const router = new VueRouter({

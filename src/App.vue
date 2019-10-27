@@ -16,7 +16,7 @@
         <md-bottom-bar-item to="/achievements" md-icon="grade">
         </md-bottom-bar-item>
         <md-bottom-bar-item to="/tips" md-icon="eco"></md-bottom-bar-item>
-        <md-bottom-bar-item md-icon="more_horiz"></md-bottom-bar-item>
+        <md-bottom-bar-item to="more" md-icon="more_horiz"></md-bottom-bar-item>
       </md-bottom-bar>
     </div>
   </div>
