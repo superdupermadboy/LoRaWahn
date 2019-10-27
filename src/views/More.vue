@@ -8,7 +8,7 @@
           </div>
         </md-list-item>
 
-        <md-divider class="md-inset"></md-divider>
+        <md-divider></md-divider>
 
         <md-list-item>
           <div class="md-list-item-text">
@@ -17,7 +17,7 @@
           </div>
         </md-list-item>
 
-        <md-divider class="md-inset"></md-divider>
+        <md-divider ></md-divider>
 
         <md-list-item>
           <div class="md-list-item-text">
@@ -26,7 +26,7 @@
           </div>
         </md-list-item>
 
-        <md-divider class="md-inset"></md-divider>
+        <md-divider ></md-divider>
 
         <md-list-item>
           <div class="md-list-item-text">
