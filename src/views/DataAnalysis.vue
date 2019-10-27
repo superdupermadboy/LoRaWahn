@@ -66,6 +66,8 @@ export default {
   },
   watch: {
     source() {
+      this.showDataMannheim = false;
+      this.showDataComunity = false;
       this.$refs.chart1.updateOptions({
         yaxis: {
           title: {
