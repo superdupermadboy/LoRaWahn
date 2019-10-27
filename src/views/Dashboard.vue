@@ -12,7 +12,7 @@
 
     <md-card>
       <md-card-header>
-        <div class="md-title">Du im vergleich</div>
+        <div class="md-title">Du im Vergleich</div>
       </md-card-header>
 
       <md-card-content class="barChart">

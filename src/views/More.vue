@@ -22,7 +22,7 @@
         <md-list-item>
           <div class="md-list-item-text">
             <span>Sensoren</span>
-            <span>Verwalte alle deine Sensoren!</span>
+            <span>Verwalte alle deine Sensoren</span>
           </div>
         </md-list-item>
 

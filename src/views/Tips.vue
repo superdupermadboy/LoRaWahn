@@ -14,11 +14,8 @@
       <md-card>
         <md-card-content>
           <md-icon>wallpaper</md-icon>
-          <p>
-            Wenn du jetzt dein Fenster öffnest, kannst du dich
-            weiterhin optimal weiterarbeiten, denn so bleibt der
-            Sauerstoffgehalt ideal.
-          </p>
+          <p>Sauerstoffknappheitsalarm! Lass frische Luft rein und dein Gehirn erbringt weiterhin
+          Höchstleistung.</p>
         </md-card-content>
       </md-card>
     </div>

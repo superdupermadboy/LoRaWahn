@@ -7,7 +7,7 @@
     <AchievementBar icon-name="euro" percent="w70" right-percent="w30"
     text="Du hast schon 1000 Euro gespart und das Klima verbessert!"/>
     <AchievementBar icon-name="directions_bike" percent="w90" right-percent="w10"
-    text="Nur noch ein paar Kilometer und du gehörst zu den besten!"/>
+    text="Nur noch ein paar Kilometer und du gehörst zu den Besten!"/>
   </div>
 </template>
 
