@@ -2,14 +2,17 @@
   <md-card>
     <md-card-header>
       <div class="md-title">Zeitlicher Verlauf</div>
-      <div class="card-control">
-        <div class="datepicker">
-          <md-datepicker v-model="selectedDate">
+    </md-card-header>
+
+    <md-card-content>
+      <div class="datepicker">
+        <div>
+          <md-datepicker class="date" v-model="selectedDate">
             <label>Start Datum</label>
           </md-datepicker>
         </div>
-        <div class="datepicker">
-          <md-datepicker v-model="selectedDate">
+        <div>
+          <md-datepicker class="date" v-model="selectedDate">
             <label>End Datum</label>
           </md-datepicker>
         </div>
@@ -39,16 +42,12 @@
         <md-checkbox v-model="showDataMannheim">Mannheim</md-checkbox>
         <md-checkbox v-model="showDataComunity">Comunity</md-checkbox>
       </div>
-    </md-card-header>
-
-    <md-card-content>
       <div id="chart">
         <apexchart
           type="line"
           ref="chart1"
           :options="chartOptions"
           :series="series[source]"
-          height="200"
         />
       </div>
     </md-card-content>
@@ -67,6 +66,8 @@ export default {
   },
   watch: {
     source() {
+      this.showDataMannheim = false;
+      this.showDataComunity = false;
       this.$refs.chart1.updateOptions({
         yaxis: {
           title: {
@@ -171,7 +172,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .md-field.small {
   width: 35%;
 }
@@ -181,7 +182,7 @@ export default {
 }
 
 .datepicker {
-  width: 48%;
+  display: flex;
 }
 
 .compare-label {
