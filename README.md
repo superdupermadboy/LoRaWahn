@@ -1,24 +1,6 @@
-# test
+Climathon Mannheim 2019 Winner
 
-## Project setup
-```
-yarn install
-```
+https://climathon-2019.hackerstolz.de/
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This is a Mock-up for the idea to use the LoRaWan Gateways technology to hookup your house with sensors.
+With the data you collected the app can give you tips to improve your climate footprint or you can compare yourself with friends to improve it on that way.
